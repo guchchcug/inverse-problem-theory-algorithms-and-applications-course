@@ -1,0 +1,16 @@
+title: Inverse Problem Theory and Applications
+description: This course introduce the inverse problem theory and applications.
+template:
+  repo: inverse-problem-theory-and-applications-template
+  name: inverse-problem-theory-and-applications
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
